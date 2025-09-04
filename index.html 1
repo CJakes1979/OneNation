@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Chris</h1>
+<h2>Frontend Simplified </h2> 
+<p>Paragraph <i>lorem</i> ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate eveniet amet, sapiente harum, pariatur nostrum adipisci eligendi delectus in iste dolor culpa cumque dolorum. Nam hic excepturi quibusdam in!</p>
+<a href="/dashboard.html" target="_blank">dashboard</a>
+<button>321</button>
+<div>
+    <b>Bold</b>
+</div>
+<a href="https://discord.gg/frontend" target="_blank">Discord Server</a>
+</body>
+</html>
