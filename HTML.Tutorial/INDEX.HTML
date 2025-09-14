@@ -4,80 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <section> 
     <nav> 
-        <img src="./FES.svg" alt="">
+        <img src="./FES.svg" class="logo" alt="">
         <ul>
           <li><a href="#about.jpg">About</a></li>
           <li><a href="#discord.png">Discord</a></li>
           <li><a href="#contact">Contact</a></li>
       </ul>
   </nav>
-  <header> 
-    <div> 
-      <h1>Best place to learn frontend</h1>
-      <p>Go from being an absolute beginner to pro with a simplified process </p>
-      <button>Start Now</button>
-    </div>
-    <figure> 
-      <img src="./laptop.png" alt="Home page image">
-    </figure>
-  </header>
-</section>
+  <header>
+    <div class="row">
+          <div> 
+            <h1>Best place to learn frontend</h1>
+            <p class="subheader">Go from being an absolute beginner to pro with a simplified process </p>
+            <button>Start Now</button>
+          </div>
+          <figure> 
+            <img src="./laptop.png" alt="Home page image">
+          </figure>
+        </div> 
+      </header>
+    </section>
+    
+    <main>
+      <section id="about"> 
+        <h2>About</h2>
+        <div class="section__description"> 
+         <div class="section__description--wrapper">
+           <p class="section__description--para"> 
+           Frontend Simplified is a community that focuses on teaching people how to code and design beautiful websites. We have a variety of resources available, including tutorials, articles, and a Discord server where you can ask questions and get help from other members of the community.</p>
+          
+           <p class="section__description--para">Whether you're a complete beginner or an experienced developer looking to improve your skills, Frontend Simplified has something for you. Our tutorials cover a wide range of topics, from HTML and CSS to JavaScript and React, so you can learn at your own pace and focus on the areas that interest you most.</p>
+           <p>Join our community today and start learning how to create stunning websites that will impress your friends, family, and potential employers! </p>
 
-<main>
-  <section id="about"> 
-    <h2>About</h2>
+          </div>
+          <figure class="about__img--wrapper"> 
+            <img src="./about.jpg" alt="">
+          </figure>
+        </div>
+      </section>
+    
+    
+      <section id="discord"> 
+        <h2>Discord</h2>
+        <div class="section__description"> 
+        <figure class="about__img--wrapper"> 
+         <img src="./discord.png" alt="Discord"> 
+        </figure>
+        <div class="section__description--wrapper"> 
+          <p class="section__description--para"> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cumque dicta sint, eligendi, blanditiis dolore earum molestiae eius quod cum ipsa. Alias soluta tempore esse odio eaque hic odit optio?
+          </p>
+          <p class="section__description--para"> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cumque dicta sint, eligendi, blanditiis dolore earum molestiae eius quod cum ipsa. Alias soluta tempore esse odio eaque hic odit optio?
+          </p>
+          </div>
+        </div>
+      </section>
+       
+      <section id="contact"> 
+        <h2>Contact</h2>
+        <form action=""> 
+           <span>Email</span>
+            <input type="text" placeholder="jane@example.com">
+            <span>Message</span>
+            <textarea placeholder="Cool website, lets get connected!"></textarea>
+            <button>Contact Us!</button>
+        </form>
+      </section>
+    </main>
+    <footer> 
+      <img class="footer__logo" src="./assets/FES.svg" alt="">
+      <div class="footer__links"> 
+        <a class="footer__links" href="#about">About</a>
+        <a class="footer__links" href="#discord">Discord</a>
+        <a class="footer__links" href="#contact">Contact</a>
+        <a class="footer__links" href="">Courses</a>
+      </div>
+      <p>Copyright Frontend Simplified</p>
+    </footer>
+    </body>
+    </html>
     <div> 
-      <p>Frontend Simplified is a community that focuses on teaching people how to code and design beautiful websites. We have a variety of resources available, including tutorials, articles, and a Discord server where you can ask questions and get help from other members of the community.</p>
-      <p>Whether you're a complete beginner or an experienced developer looking to improve your skills, Frontend Simplified has something for you. Our tutorials cover a wide range of topics, from HTML and CSS to JavaScript and React, so you can learn at your own pace and focus on the areas that interest you most.</p>
-      <p>Join our community today and start learning how to create stunning websites that will impress your friends, family, and potential employers!</p>
-    </div>
-    <figure> 
-      <img src="./about.jpg" alt="">
-    </figure>
-  </section>
-
-
-  <section id="discord.png"> 
-    <h2>Discord</h2>
-    <figure> 
-     <img src="./discord.png" alt="Discord"> 
-    </figure>
-    <div> 
-      <p> 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cumque dicta sint, eligendi, blanditiis dolore earum molestiae eius quod cum ipsa. Alias soluta tempore esse odio eaque hic odit optio?
-      </p>
-      <p> 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cumque dicta sint, eligendi, blanditiis dolore earum molestiae eius quod cum ipsa. Alias soluta tempore esse odio eaque hic odit optio?
-      </p>
-    </div>
-  </section>
-   
-  <section id="contact"> 
-    <h2>Contact</h2>
-    <form action=""> 
-       <span>Email</span>
-        <input type="text" placeholder="jane@example.com">
-        <span>Message</span>
-        <textarea type="text" placeholder="jane@example.com"></textarea>
-    </form>
-  </section>
-</main>
-<footer> 
-  <img src="./assets/FES.svg" alt="">
-  <div> 
-    <a href="#about">About</a>
-    <a href="#discord">Discord</a>
-    <a href="#contact">Contact</a>
-    <a href="">Courses</a>
-  </div>
-  <p>Copyright © 2024 Frontend Simplified. All rights reserved.</p>
-</footer>
-</body>
-</html>
         
         
      
